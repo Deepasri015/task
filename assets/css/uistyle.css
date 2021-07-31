@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body{
+  background-color: #000000;
+  color:#ffffff;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;;
+  position: fixed;
+}
+header{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  margin-left: 100px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.lists ul{
+  margin-left: 180px;
+}
+.lists ul li{
+  display: inline;
+  padding: 40px;
+  text-align: center;
+}
+.lists ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sign-up button{
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #FFE600;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 200px;
+}
+.para{
+  text-align: center;
+  margin-top: 50px;
+}
+.para h1{
+  color:  #FFE600;
+  font-size: 40px;
+}
+.para p{
+  font-size: 18px;
+  color: gray;
+}
+
+section{
+  display: flex;
+  margin-top: 50px;
+
+}
+.login input,button{
+  padding: 18px;
+  margin: 0 20px 10px 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 260px;
+  background-color: #FFFFFF;
+}
+.login button{
+  width: 295px;
+  background-color: #FFE600;
+  text-align: left;
+  font-size: 18px;
+  cursor: pointer;
+}
+.socialmedia button{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: 280px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  cursor: pointer;
+
+}
+button img{
+padding: 10px;
+}
+section p{
+  margin-top: 80px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+ .password h2{
+  margin-left: 650px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #ccc;
+  cursor: pointer;
+}
+footer{
+  display: flex;
+  align-items: center;
+}
+footer h5{
+  margin-left: 1000px;
+  color: #ccc;
+
+}
+footer h4{
+  margin-left: 100px;
+  font-size: 15px;
+  color: #ccc;
+}
